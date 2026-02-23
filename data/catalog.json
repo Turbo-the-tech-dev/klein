@@ -1,0 +1,663 @@
+{
+  "catalog": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-02-23",
+    "description": "Comprehensive cross-referenced tool catalog for all manufacturers",
+    "manufacturers": [
+      "klein",
+      "greenlee",
+      "ideal",
+      "milwaukee",
+      "dewalt",
+      "makita",
+      "bosch",
+      "ryobi",
+      "craftsman",
+      "husky"
+    ],
+    "categories": [
+      "hand-tools",
+      "power-tools",
+      "testing-equipment",
+      "conduit-tools",
+      "wiring-tools"
+    ],
+    "applications": [
+      "wiring",
+      "conduit",
+      "testing",
+      "cutting",
+      "fastening",
+      "drilling"
+    ]
+  },
+  "tools": {
+    "klein": {
+      "manufacturer": "Klein Tools",
+      "description": "Professional electrician hand tools since 1857",
+      "tools": [
+        {
+          "name": "Insulated Screwdriver Set",
+          "model": "32500INS",
+          "category": "hand-tools",
+          "application": ["fastening", "wiring"],
+          "paths": {
+            "byManufacturer": "src/tools/klein/screwdrivers",
+            "byCategory": "src/tools/category/hand-tools/klein",
+            "byApplication": ["src/tools/application/fastening/klein", "src/tools/application/wiring/klein"]
+          }
+        },
+        {
+          "name": "Linesman Pliers",
+          "model": "D213-9NET",
+          "category": "hand-tools",
+          "application": ["wiring", "cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/klein/pliers",
+            "byCategory": "src/tools/category/hand-tools/klein",
+            "byApplication": ["src/tools/application/wiring/klein", "src/tools/application/cutting/klein"]
+          }
+        },
+        {
+          "name": "Wire Stripper",
+          "model": "11055",
+          "category": "wiring-tools",
+          "application": ["wiring", "cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/klein/wire-strippers",
+            "byCategory": "src/tools/category/wiring-tools/klein",
+            "byApplication": ["src/tools/application/wiring/klein", "src/tools/application/cutting/klein"]
+          }
+        },
+        {
+          "name": "Nut Driver Set",
+          "model": "646M",
+          "category": "hand-tools",
+          "application": ["fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/klein/nut-drivers",
+            "byCategory": "src/tools/category/hand-tools/klein",
+            "byApplication": ["src/tools/application/fastening/klein"]
+          }
+        },
+        {
+          "name": "Diagonal Cutting Pliers",
+          "model": "D228-6",
+          "category": "hand-tools",
+          "application": ["cutting", "wiring"],
+          "paths": {
+            "byManufacturer": "src/tools/klein/cutters",
+            "byCategory": "src/tools/category/hand-tools/klein",
+            "byApplication": ["src/tools/application/cutting/klein", "src/tools/application/wiring/klein"]
+          }
+        }
+      ]
+    },
+    "greenlee": {
+      "manufacturer": "Greenlee",
+      "description": "Professional conduit and cable installation tools",
+      "tools": [
+        {
+          "name": "Hole Saw Kit",
+          "model": "Kwik-Cycle 5942",
+          "category": "power-tools",
+          "application": ["cutting", "drilling"],
+          "paths": {
+            "byManufacturer": "src/tools/greenlee/hole-saws",
+            "byCategory": "src/tools/category/power-tools/greenlee",
+            "byApplication": ["src/tools/application/cutting/greenlee", "src/tools/application/drilling/greenlee"]
+          }
+        },
+        {
+          "name": "Conduit Bender",
+          "model": "885CT",
+          "category": "conduit-tools",
+          "application": ["conduit"],
+          "paths": {
+            "byManufacturer": "src/tools/greenlee/conduit-benders",
+            "byCategory": "src/tools/category/conduit-tools/greenlee",
+            "byApplication": ["src/tools/application/conduit/greenlee"]
+          }
+        },
+        {
+          "name": "Fish Tape",
+          "model": "200MP",
+          "category": "wiring-tools",
+          "application": ["wiring"],
+          "paths": {
+            "byManufacturer": "src/tools/greenlee/fish-tapes",
+            "byCategory": "src/tools/category/wiring-tools/greenlee",
+            "byApplication": ["src/tools/application/wiring/greenlee"]
+          }
+        },
+        {
+          "name": "Cable Puller",
+          "model": "1025",
+          "category": "wiring-tools",
+          "application": ["wiring"],
+          "paths": {
+            "byManufacturer": "src/tools/greenlee/cable-pullers",
+            "byCategory": "src/tools/category/wiring-tools/greenlee",
+            "byApplication": ["src/tools/application/wiring/greenlee"]
+          }
+        },
+        {
+          "name": "Knockout Set",
+          "model": "735BB",
+          "category": "conduit-tools",
+          "application": ["conduit", "cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/greenlee/knockout-sets",
+            "byCategory": "src/tools/category/conduit-tools/greenlee",
+            "byApplication": ["src/tools/application/conduit/greenlee", "src/tools/application/cutting/greenlee"]
+          }
+        }
+      ]
+    },
+    "ideal": {
+      "manufacturer": "Ideal Industries",
+      "description": "Electrical testing and connection solutions",
+      "tools": [
+        {
+          "name": "Voltage Tester",
+          "model": "61-065",
+          "category": "testing-equipment",
+          "application": ["testing"],
+          "paths": {
+            "byManufacturer": "src/tools/ideal/voltage-testers",
+            "byCategory": "src/tools/category/testing-equipment/ideal",
+            "byApplication": ["src/tools/application/testing/ideal"]
+          }
+        },
+        {
+          "name": "Wire Connectors",
+          "model": "30-1053",
+          "category": "wiring-tools",
+          "application": ["wiring", "fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/ideal/connectors",
+            "byCategory": "src/tools/category/wiring-tools/ideal",
+            "byApplication": ["src/tools/application/wiring/ideal", "src/tools/application/fastening/ideal"]
+          }
+        },
+        {
+          "name": "Cable Ties",
+          "model": "47-005",
+          "category": "wiring-tools",
+          "application": ["wiring", "fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/ideal/cable-ties",
+            "byCategory": "src/tools/category/wiring-tools/ideal",
+            "byApplication": ["src/tools/application/wiring/ideal", "src/tools/application/fastening/ideal"]
+          }
+        },
+        {
+          "name": "Wire Nuts",
+          "model": "30-2131",
+          "category": "wiring-tools",
+          "application": ["wiring", "fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/ideal/wire-nuts",
+            "byCategory": "src/tools/category/wiring-tools/ideal",
+            "byApplication": ["src/tools/application/wiring/ideal", "src/tools/application/fastening/ideal"]
+          }
+        },
+        {
+          "name": "Crimping Tool",
+          "model": "30-535",
+          "category": "wiring-tools",
+          "application": ["wiring", "fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/ideal/crimpers",
+            "byCategory": "src/tools/category/wiring-tools/ideal",
+            "byApplication": ["src/tools/application/wiring/ideal", "src/tools/application/fastening/ideal"]
+          }
+        }
+      ]
+    },
+    "milwaukee": {
+      "manufacturer": "Milwaukee Tool",
+      "description": "Heavy-duty power tools and equipment",
+      "tools": [
+        {
+          "name": "Hammer Drill",
+          "model": "2804-20 M18",
+          "category": "power-tools",
+          "application": ["drilling"],
+          "paths": {
+            "byManufacturer": "src/tools/milwaukee/drills",
+            "byCategory": "src/tools/category/power-tools/milwaukee",
+            "byApplication": ["src/tools/application/drilling/milwaukee"]
+          }
+        },
+        {
+          "name": "Impact Driver",
+          "model": "2853-20 M18",
+          "category": "power-tools",
+          "application": ["fastening", "drilling"],
+          "paths": {
+            "byManufacturer": "src/tools/milwaukee/impact-drivers",
+            "byCategory": "src/tools/category/power-tools/milwaukee",
+            "byApplication": ["src/tools/application/fastening/milwaukee", "src/tools/application/drilling/milwaukee"]
+          }
+        },
+        {
+          "name": "Circular Saw",
+          "model": "2732-20 M18",
+          "category": "power-tools",
+          "application": ["cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/milwaukee/saws",
+            "byCategory": "src/tools/category/power-tools/milwaukee",
+            "byApplication": ["src/tools/application/cutting/milwaukee"]
+          }
+        },
+        {
+          "name": "Work Light",
+          "model": "2735-20 M18",
+          "category": "power-tools",
+          "application": ["testing"],
+          "paths": {
+            "byManufacturer": "src/tools/milwaukee/lights",
+            "byCategory": "src/tools/category/power-tools/milwaukee",
+            "byApplication": ["src/tools/application/testing/milwaukee"]
+          }
+        },
+        {
+          "name": "M18 Battery Pack",
+          "model": "48-11-1850",
+          "category": "power-tools",
+          "application": ["drilling", "cutting", "fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/milwaukee/batteries",
+            "byCategory": "src/tools/category/power-tools/milwaukee",
+            "byApplication": ["src/tools/application/drilling/milwaukee", "src/tools/application/cutting/milwaukee", "src/tools/application/fastening/milwaukee"]
+          }
+        }
+      ]
+    },
+    "dewalt": {
+      "manufacturer": "DeWalt",
+      "description": "Professional grade power tools",
+      "tools": [
+        {
+          "name": "Cordless Drill",
+          "model": "DCD771C2 20V",
+          "category": "power-tools",
+          "application": ["drilling"],
+          "paths": {
+            "byManufacturer": "src/tools/dewalt/drills",
+            "byCategory": "src/tools/category/power-tools/dewalt",
+            "byApplication": ["src/tools/application/drilling/dewalt"]
+          }
+        },
+        {
+          "name": "Reciprocating Saw",
+          "model": "DCS380P1 20V",
+          "category": "power-tools",
+          "application": ["cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/dewalt/saws",
+            "byCategory": "src/tools/category/power-tools/dewalt",
+            "byApplication": ["src/tools/application/cutting/dewalt"]
+          }
+        },
+        {
+          "name": "Angle Grinder",
+          "model": "DCG412B 20V",
+          "category": "power-tools",
+          "application": ["cutting", "drilling"],
+          "paths": {
+            "byManufacturer": "src/tools/dewalt/grinders",
+            "byCategory": "src/tools/category/power-tools/dewalt",
+            "byApplication": ["src/tools/application/cutting/dewalt", "src/tools/application/drilling/dewalt"]
+          }
+        },
+        {
+          "name": "Random Orbit Sander",
+          "model": "DCW210B 20V",
+          "category": "power-tools",
+          "application": ["cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/dewalt/sanders",
+            "byCategory": "src/tools/category/power-tools/dewalt",
+            "byApplication": ["src/tools/application/cutting/dewalt"]
+          }
+        },
+        {
+          "name": "20V MAX Battery",
+          "model": "DCB205",
+          "category": "power-tools",
+          "application": ["drilling", "cutting", "fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/dewalt/batteries",
+            "byCategory": "src/tools/category/power-tools/dewalt",
+            "byApplication": ["src/tools/application/drilling/dewalt", "src/tools/application/cutting/dewalt", "src/tools/application/fastening/dewalt"]
+          }
+        }
+      ]
+    },
+    "makita": {
+      "manufacturer": "Makita",
+      "description": "Industrial power tools and equipment",
+      "tools": [
+        {
+          "name": "Hammer Driver Drill",
+          "model": "XPH12Z 18V",
+          "category": "power-tools",
+          "application": ["drilling"],
+          "paths": {
+            "byManufacturer": "src/tools/makita/drills",
+            "byCategory": "src/tools/category/power-tools/makita",
+            "byApplication": ["src/tools/application/drilling/makita"]
+          }
+        },
+        {
+          "name": "Circular Saw",
+          "model": "XSS02Z 18V",
+          "category": "power-tools",
+          "application": ["cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/makita/saws",
+            "byCategory": "src/tools/category/power-tools/makita",
+            "byApplication": ["src/tools/application/cutting/makita"]
+          }
+        },
+        {
+          "name": "Random Orbit Sander",
+          "model": "XBO01Z 18V",
+          "category": "power-tools",
+          "application": ["cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/makita/sanders",
+            "byCategory": "src/tools/category/power-tools/makita",
+            "byApplication": ["src/tools/application/cutting/makita"]
+          }
+        },
+        {
+          "name": "Plunge Router",
+          "model": "XTR01Z 18V",
+          "category": "power-tools",
+          "application": ["cutting", "drilling"],
+          "paths": {
+            "byManufacturer": "src/tools/makita/routers",
+            "byCategory": "src/tools/category/power-tools/makita",
+            "byApplication": ["src/tools/application/cutting/makita", "src/tools/application/drilling/makita"]
+          }
+        },
+        {
+          "name": "18V LXT Battery",
+          "model": "BL1850B",
+          "category": "power-tools",
+          "application": ["drilling", "cutting", "fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/makita/batteries",
+            "byCategory": "src/tools/category/power-tools/makita",
+            "byApplication": ["src/tools/application/drilling/makita", "src/tools/application/cutting/makita", "src/tools/application/fastening/makita"]
+          }
+        }
+      ]
+    },
+    "bosch": {
+      "manufacturer": "Bosch",
+      "description": "Precision power tools and accessories",
+      "tools": [
+        {
+          "name": "Compact Drill",
+          "model": "PS31-2A 12V",
+          "category": "power-tools",
+          "application": ["drilling"],
+          "paths": {
+            "byManufacturer": "src/tools/bosch/drills",
+            "byCategory": "src/tools/category/power-tools/bosch",
+            "byApplication": ["src/tools/application/drilling/bosch"]
+          }
+        },
+        {
+          "name": "Jigsaw",
+          "model": "JS120BN 12V",
+          "category": "power-tools",
+          "application": ["cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/bosch/saws",
+            "byCategory": "src/tools/category/power-tools/bosch",
+            "byApplication": ["src/tools/application/cutting/bosch"]
+          }
+        },
+        {
+          "name": "Angle Grinder",
+          "model": "GWS18V-45 18V",
+          "category": "power-tools",
+          "application": ["cutting", "drilling"],
+          "paths": {
+            "byManufacturer": "src/tools/bosch/grinders",
+            "byCategory": "src/tools/category/power-tools/bosch",
+            "byApplication": ["src/tools/application/cutting/bosch", "src/tools/application/drilling/bosch"]
+          }
+        },
+        {
+          "name": "Random Orbit Sander",
+          "model": "ROS20VSC",
+          "category": "power-tools",
+          "application": ["cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/bosch/sanders",
+            "byCategory": "src/tools/category/power-tools/bosch",
+            "byApplication": ["src/tools/application/cutting/bosch"]
+          }
+        },
+        {
+          "name": "18V Battery",
+          "model": "BAT609",
+          "category": "power-tools",
+          "application": ["drilling", "cutting", "fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/bosch/batteries",
+            "byCategory": "src/tools/category/power-tools/bosch",
+            "byApplication": ["src/tools/application/drilling/bosch", "src/tools/application/cutting/bosch", "src/tools/application/fastening/bosch"]
+          }
+        }
+      ]
+    },
+    "ryobi": {
+      "manufacturer": "Ryobi",
+      "description": "DIY and professional power tools",
+      "tools": [
+        {
+          "name": "Drill/Driver Kit",
+          "model": "P1811 18V",
+          "category": "power-tools",
+          "application": ["drilling"],
+          "paths": {
+            "byManufacturer": "src/tools/ryobi/drills",
+            "byCategory": "src/tools/category/power-tools/ryobi",
+            "byApplication": ["src/tools/application/drilling/ryobi"]
+          }
+        },
+        {
+          "name": "Circular Saw",
+          "model": "P507 18V",
+          "category": "power-tools",
+          "application": ["cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/ryobi/saws",
+            "byCategory": "src/tools/category/power-tools/ryobi",
+            "byApplication": ["src/tools/application/cutting/ryobi"]
+          }
+        },
+        {
+          "name": "Detail Sander",
+          "model": "P411 18V",
+          "category": "power-tools",
+          "application": ["cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/ryobi/sanders",
+            "byCategory": "src/tools/category/power-tools/ryobi",
+            "byApplication": ["src/tools/application/cutting/ryobi"]
+          }
+        },
+        {
+          "name": "Multi-Tool",
+          "model": "P340 18V",
+          "category": "power-tools",
+          "application": ["cutting", "drilling"],
+          "paths": {
+            "byManufacturer": "src/tools/ryobi/trimmers",
+            "byCategory": "src/tools/category/power-tools/ryobi",
+            "byApplication": ["src/tools/application/cutting/ryobi", "src/tools/application/drilling/ryobi"]
+          }
+        },
+        {
+          "name": "ONE+ Battery",
+          "model": "PBP003 18V",
+          "category": "power-tools",
+          "application": ["drilling", "cutting", "fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/ryobi/batteries",
+            "byCategory": "src/tools/category/power-tools/ryobi",
+            "byApplication": ["src/tools/application/drilling/ryobi", "src/tools/application/cutting/ryobi", "src/tools/application/fastening/ryobi"]
+          }
+        }
+      ]
+    },
+    "craftsman": {
+      "manufacturer": "Craftsman",
+      "description": "Trusted hand and power tools",
+      "tools": [
+        {
+          "name": "Screwdriver Set",
+          "model": "CMHT65075",
+          "category": "hand-tools",
+          "application": ["fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/craftsman/screwdrivers",
+            "byCategory": "src/tools/category/hand-tools/craftsman",
+            "byApplication": ["src/tools/application/fastening/craftsman"]
+          }
+        },
+        {
+          "name": "Pliers Set",
+          "model": "CMMT99302",
+          "category": "hand-tools",
+          "application": ["wiring", "cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/craftsman/pliers",
+            "byCategory": "src/tools/category/hand-tools/craftsman",
+            "byApplication": ["src/tools/application/wiring/craftsman", "src/tools/application/cutting/craftsman"]
+          }
+        },
+        {
+          "name": "Wrench Set",
+          "model": "CMMT99406",
+          "category": "hand-tools",
+          "application": ["fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/craftsman/wrenches",
+            "byCategory": "src/tools/category/hand-tools/craftsman",
+            "byApplication": ["src/tools/application/fastening/craftsman"]
+          }
+        },
+        {
+          "name": "Hand Saw",
+          "model": "CMHT20880",
+          "category": "hand-tools",
+          "application": ["cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/craftsman/saws",
+            "byCategory": "src/tools/category/hand-tools/craftsman",
+            "byApplication": ["src/tools/application/cutting/craftsman"]
+          }
+        },
+        {
+          "name": "Socket Set",
+          "model": "CMMT99239",
+          "category": "hand-tools",
+          "application": ["fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/craftsman/sockets",
+            "byCategory": "src/tools/category/hand-tools/craftsman",
+            "byApplication": ["src/tools/application/fastening/craftsman"]
+          }
+        }
+      ]
+    },
+    "husky": {
+      "manufacturer": "Husky",
+      "description": "Professional hand tools",
+      "tools": [
+        {
+          "name": "Screwdriver Set",
+          "model": "H6SDMTS",
+          "category": "hand-tools",
+          "application": ["fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/husky/screwdrivers",
+            "byCategory": "src/tools/category/hand-tools/husky",
+            "byApplication": ["src/tools/application/fastening/husky"]
+          }
+        },
+        {
+          "name": "Pliers Set",
+          "model": "H3PLRS",
+          "category": "hand-tools",
+          "application": ["wiring", "cutting"],
+          "paths": {
+            "byManufacturer": "src/tools/husky/pliers",
+            "byCategory": "src/tools/category/hand-tools/husky",
+            "byApplication": ["src/tools/application/wiring/husky", "src/tools/application/cutting/husky"]
+          }
+        },
+        {
+          "name": "Wrench Set",
+          "model": "H14PCWRCHST",
+          "category": "hand-tools",
+          "application": ["fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/husky/wrenches",
+            "byCategory": "src/tools/category/hand-tools/husky",
+            "byApplication": ["src/tools/application/fastening/husky"]
+          }
+        },
+        {
+          "name": "Socket Set",
+          "model": "H264MTS",
+          "category": "hand-tools",
+          "application": ["fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/husky/sockets",
+            "byCategory": "src/tools/category/hand-tools/husky",
+            "byApplication": ["src/tools/application/fastening/husky"]
+          }
+        },
+        {
+          "name": "Hammer Set",
+          "model": "H3HAMMER",
+          "category": "hand-tools",
+          "application": ["fastening"],
+          "paths": {
+            "byManufacturer": "src/tools/husky/hammers",
+            "byCategory": "src/tools/category/hand-tools/husky",
+            "byApplication": ["src/tools/application/fastening/husky"]
+          }
+        }
+      ]
+    }
+  },
+  "crossReference": {
+    "byCategory": {
+      "hand-tools": ["klein", "craftsman", "husky"],
+      "power-tools": ["milwaukee", "dewalt", "makita", "bosch", "ryobi", "greenlee"],
+      "testing-equipment": ["ideal"],
+      "conduit-tools": ["greenlee"],
+      "wiring-tools": ["klein", "greenlee", "ideal"]
+    },
+    "byApplication": {
+      "wiring": ["klein", "greenlee", "ideal", "craftsman", "husky"],
+      "conduit": ["greenlee"],
+      "testing": ["ideal", "milwaukee"],
+      "cutting": ["klein", "greenlee", "milwaukee", "dewalt", "makita", "bosch", "ryobi", "craftsman", "husky"],
+      "fastening": ["klein", "ideal", "milwaukee", "dewalt", "makita", "bosch", "ryobi", "craftsman", "husky"],
+      "drilling": ["milwaukee", "dewalt", "makita", "bosch", "ryobi", "greenlee"]
+    }
+  }
+}
