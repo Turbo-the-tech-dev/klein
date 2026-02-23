@@ -1,0 +1,7 @@
+{
+  "tools": {
+    "klein": ["screwdrivers", "pliers", "wire strippers"],
+    "greenlee": ["hole saws", "conduit benders", "fish tapes"],
+    "ideal": ["voltage testers", "connectors", "cable ties"]
+  }
+}

@@ -1,2 +1,12 @@
-# klein
-Ultimate Electrician Toolkit: Klein, Greenlee, Ideal Integration
+# Klein Electrician Repo
+
+## Directory Structure
+- src/
+  - components/
+  - pages/
+  - styles/
+  - utils/
+- public/
+- docs/
+- tests/
+- backend/
