@@ -1,0 +1,5 @@
+{
+  "claude-agent-1": "gameplan-generator",
+  "claude-agent-2": "feature-implementer",
+  "goals": ["ai-tool-id", "load-calc", "nec-index", "compete-google-lens"]
+}

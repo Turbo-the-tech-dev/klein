@@ -1,0 +1,22 @@
+.ai-tool-card {
+  border: 2px solid #00ff00;
+  padding: 15px;
+  background: #111;
+  border-radius: 8px;
+  color: #00ff00;
+}
+
+.recognition-result {
+  margin-top: 15px;
+  padding: 10px;
+  background: #222;
+  border-radius: 4px;
+}
+
+.recognition-result h3 {
+  margin: 0 0 10px 0;
+}
+
+.recognition-result p {
+  margin: 5px 0;
+}
